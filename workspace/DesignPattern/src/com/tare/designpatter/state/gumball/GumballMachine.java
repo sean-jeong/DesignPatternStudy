@@ -81,4 +81,10 @@ public class GumballMachine {
 		return stringBuffer.toString();
 	}
 
+	public void refill(int count) {
+		this.count = 0; 
+		this.state = noQuarterState; 
+				
+	}
+	
 }
